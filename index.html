@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Chore Chart</title>
+        <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="container">
+             <script type="text/stache" id="index" can-autorender>
+                <can-import from="src/models/fixtures"/>
+                <can-import from="src/components/chore-list/chore-list"/>
+                <h1>Chore List</h1>
+                <chore-list></chore-list>
+             </script>
+        </div>
+        <script src="../../node_modules/steal/steal.js" 
+        		main="can/view/autorender/">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+<section>
+    <header>
+        <h2>{{item.name}}</h2>
+    </header>
+    <div class="chore-container">
+        <chore-icon icon-type="{item.typeIconUrl}"></chore-icon>
+        <chore-icon icon-type="{item.changeIconUrl}"></chore-icon>
+        <chore-description chore-meta="{item.meta}"></chore-description>
+    </div>
+</section>

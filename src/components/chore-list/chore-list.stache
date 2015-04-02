@@ -1,0 +1,5 @@
+{{#chores}}
+<chore-item item="{.}"></chore-item>
+{{/chores}}
+
+<p>Found {{chores.length}} chores.</p>
