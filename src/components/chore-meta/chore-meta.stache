@@ -1,0 +1,5 @@
+<ul class="chore-meta">
+{{#choreMeta}}
+    <li class="chore-meta-item"><span class="chore-meta-key">{{label}}</span><span class="chore-meta-value">{{value}}</span></li>
+{{/choreMeta}}
+</ul>

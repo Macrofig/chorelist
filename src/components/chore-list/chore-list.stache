@@ -1,5 +1,8 @@
-{{#chores}}
-<chore-item item="{.}"></chore-item>
-{{/chores}}
-
-<p>Found {{chores.length}} chores.</p>
+<div class="chore-list row">
+    {{#chores}}
+    <chore-item item="{.}"></chore-item>
+    {{/chores}}
+</div>
+<div class="row">
+    <p>Found {{chores.length}} chores.</p>
+</div>

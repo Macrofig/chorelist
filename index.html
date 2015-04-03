@@ -2,15 +2,14 @@
 <html>
     <head>
         <title>Chore Chart</title>
-        <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
     </head>
     <body>
-        <div class="container">
+        <div class="container-fluid">
              <script type="text/stache" id="index" can-autorender>
                 <can-import from="src/models/fixtures"/>
-                <can-import from="src/components/chore-list/chore-list"/>
+                <can-import from="src/pages/chore-listing/chore-listing"/>
                 <h1>Chore List</h1>
-                <chore-list></chore-list>
+                <chore-listing></chore-listing>
              </script>
         </div>
         <script src="../../node_modules/steal/steal.js" 
